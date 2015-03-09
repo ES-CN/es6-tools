@@ -1,21 +1,26 @@
 # <img src="http://i.imgur.com/yy1sACZ.png" width="100px"/> ECMAScript 6 Tools
 
-## Transpilers
+## 转译器
 
-* [Babel](https://github.com/babel/babel) - Turn ES6+ code into vanilla ES5 with no runtime
-* [Traceur compiler](https://github.com/google/traceur-compiler) - ES6 features > ES5. Includes classes, generators, promises, destructuring patterns, default parameters & more.
-* [es6ify](https://github.com/thlorenz/es6ify) - Traceur compiler wrapped as a [Browserify](http://browserify.org/) v2 transform
-* [babelify](https://github.com/babel/babelify) - Babel transpiler wrapped as a [Browserify](http://browserify.org/) transform
-* [es6-transpiler](https://github.com/termi/es6-transpiler) - ES6 > ES5. Includes classes, destructuring, default parameters, spread
-* Square's [es6-module-transpiler](https://github.com/square/es6-module-transpiler) - ES6 modules to AMD or CJS
-* Square's [esnext](https://github.com/square/esnext) - next generation JavaScript to today's JavaScript transformer now a part of 6to5.
-* Facebook's [regenerator](https://github.com/facebook/regenerator) - transform ES6 yield/generator functions to ES5
-* Facebook's [jstransform](https://github.com/facebook/jstransform) - A simple utility for pluggable JS syntax transforms. Comes with a small set of ES6 -> ES5 transforms
-* [defs](https://github.com/olov/defs) - ES6 block-scoped const and let variables to ES3 vars
-* [es6_module_transpiler-rails](https://github.com/dockyard/es6_module_transpiler-rails) - ES6 Modules in the Rails Asset Pipeline
-* [Some Sweet.js macros](https://github.com/jlongster/es6-macros) that compile from ES6 to ES5
-* Bitovi's [transpile](https://github.com/bitovi/transpile) - Converts ES6 to AMD, CJS, and StealJS.
-* [regexpu](https://github.com/mathiasbynens/regexpu) — Transform Unicode-aware ES6 regular expressions to ES5
+* [Babel](https://github.com/babel)
+  * [Babel](https://github.com/babel/babel) - 进行预编译, 将 ES6+ 的代码转译到普通的 ES5 代码
+  * [babelify](https://github.com/babel/babelify) - 包装成 [Browserify transform 模块](https://github.com/substack/node-browserify/wiki/list-of-transforms) 的 Babel 转译器
+* [Google](https://github.com/google)
+  * [Traceur compiler](https://github.com/google/traceur-compiler) - 将 ES6 的功能转换至 ES5, 包括 classes, generators, promises, destructuring patterns, default parameters 以及更多.
+  * [es6ify](https://github.com/thlorenz/es6ify) - 包装成 [Browserify transform 模块](https://github.com/substack/node-browserify/wiki/list-of-transforms) 的 Traceur 转译器
+* [Square](https://github.com/square)
+  * [es6-module-transpiler](https://github.com/square/es6-module-transpiler) - ES6 modules to AMD or CJS
+  * [esnext](https://github.com/square/esnext) - (已收并到Babel) 下一代与现代 JS 的转换器
+* [Facebook](https://github.com/facebook)
+  * [regenerator](https://github.com/facebook/regenerator) - 转换 ES6 的 yield/generator functions 到 ES5
+  * [jstransform](https://github.com/facebook/jstransform) - 一个简单的支持可插拔J 语法转换的组件, 附带一个 ES6 -> ES5 转换器小集合
+* 其它
+  * [es6-transpiler](https://github.com/termi/es6-transpiler) - (已收并到Babel) ES6 > ES5. 包括 classes, destructuring, default parameters
+  * [defs](https://github.com/olov/defs) - ES6 块作用域 const 和 let 变量 => ES3 var
+  * [es6_module_transpiler-rails](https://github.com/dockyard/es6_module_transpiler-rails) - 基于 Rails [Asset Pipeline](guides.ruby-china.org/asset_pipeline.html) 框架的 ES6 模块管理
+  * [es6-macros](https://github.com/jlongster/es6-macros) 一些将 ES6 转译到 ES5 的小工具集
+  * Bitovi's [transpile](https://github.com/bitovi/transpile) - 将 ES6 转译到 AMD, CJS, 和 StealJS.
+  * [regexpu](https://github.com/mathiasbynens/regexpu) — 将 ES6 形式 (Unicode-aware) 的正则表达式转换到 ES5
 
 ## Build-time transpilation
 
