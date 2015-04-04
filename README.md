@@ -59,7 +59,7 @@
 
 ## Webpack 插件
 * Babel: [babel-loader](https://github.com/babel/babel-loader)
-* Traceur: [webpack-traceur-loader](https://github.com/ndhoule/webpack-traceur-loader)
+* Traceur: [traceur-compiler-loader](https://github.com/gdi2290/traceur-compiler-loader)
 
 ## Duo 插件
 * Babel: [duo-babel](https://github.com/babel/duo-babel)
