@@ -90,6 +90,9 @@
 ## Browser 插件
 * [Scratch JS](https://github.com/richgilbank/Scratch-JS) - A Chrome/Opera DevTools extension to run ES6 on a page with either Babel or Traceur
 
+## Mocha 插件
+* [Mocha Traceur](https://github.com/domenic/mocha-traceur) - A simple plugin for Mocha to pass JS files through the Traceur compiler
+
 ## 模块加载器
 
 * ES6 [Module Loader polyfill](https://github.com/ModuleLoader/es6-module-loader) (兼容最新的规范和Traceur)
